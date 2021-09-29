@@ -1,7 +1,6 @@
 def add_2_list():
     li = []
     while True:
-        print('this is li',li)
         num = input('enter number: ')
         if num == 'done':
             print(li)
@@ -9,8 +8,6 @@ def add_2_list():
         if num
         num = int(num)
         if isinstance(num, int):
-
             li.append(num)
-            print(li)
 
 add_2_list()
